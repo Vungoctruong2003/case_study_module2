@@ -25,25 +25,15 @@ $adminController = new adminController();
 
 
 <div id="main" class="container" style="margin-bottom: 20px">
-
     <?php
     $role = $_SESSION['role'] ?? null;
     if ($role == 1 || $role == null) {
         include_once "router/router_customer.php";
-        include_once "Views/footer.php";
     } else {
         include_once "router/router_admin.php";
     }
     ?>
 </div>
-
-
-<div id="footer">
-    <?php
-
-    ?>
-</div>
-
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

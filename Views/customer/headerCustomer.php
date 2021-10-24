@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Trang chủ <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.php?page=customer&action=pants">Quần</a>
@@ -33,7 +33,7 @@
             <input type="hidden" name="action" value="search">
             <input type="hidden" name="page" value="customer">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="key">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
         </form>
     </div>
 </nav>

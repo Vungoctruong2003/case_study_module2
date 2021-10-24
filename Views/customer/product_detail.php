@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,7 +17,8 @@
                 <article class="gallery-wrap">
                     <div class="img-big-wrap">
                         <div>
-                            <a href="#"><img src="uploads/<?php echo $product["product_image"] ?>" width="450px" height="450px"></a>
+                            <a href="#"><img src="uploads/<?php echo $product["product_image"] ?>" width="430px"
+                                             height="570px"></a>
                         </div>
                     </div>
                 </article>
@@ -29,7 +29,7 @@
 
                     <p class="price-detail-wrap">
 	<span class="price h3 text-warning">
-		<span class="num"><?php echo number_format( $product["product_price"]) ?></span><span class="currency">VND</span>
+		<span class="num"><?php echo number_format($product["product_price"]) ?></span><span class="currency">VND</span>
 	</span>
                     </p>
                     <dl class="item-property">
@@ -42,7 +42,7 @@
                             <dt>Size: <?php echo $product["product_size"] ?> </dt>
                         </dl>
                     </div>
-                    <a href="#" class="btn btn-lg btn-primary text-uppercase"> Mua </a>
+                    <a href="index.php?page=customer&action=buy" class="btn btn-lg btn-primary text-uppercase"> Đặt hàng </a>
         </div>
         <hr>
         </article>
